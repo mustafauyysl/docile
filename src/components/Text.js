@@ -11,7 +11,11 @@ const DText = (props) => {
       stylesObject.push(styles[item]);
     });
 
-  return <Text style={stylesObject}>{props.children}</Text>;
+  return (
+    <Text style={[stylesObject, props.color ? {color: props.color} : null]}>
+      {props.children}
+    </Text>
+  );
 };
 
 export default DText;

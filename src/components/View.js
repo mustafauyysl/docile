@@ -11,7 +11,11 @@ const DView = (props) => {
       stylesObject.push(styles[item]);
     });
 
-  return <View style={stylesObject}>{props.children}</View>;
+  return (
+    <View style={[stylesObject, props.bg ? {backgroundColor: props.bg} : null]}>
+      {props.children}
+    </View>
+  );
 };
 
 export default DView;

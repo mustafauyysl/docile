@@ -6,8 +6,10 @@ const Screen = (props) => {
   return (
     <View>
       {props.headerTitle && (
-        <View class="mb-2 ml-2">
-          <Text class="display-1 mt-5 font-weight-bold">
+        <View bg={props.headerBg} class="pb-2 pl-2">
+          <Text
+            class="display-1 mt-5 font-weight-bold"
+            color={props.headerTitleColor}>
             {props.headerTitle}
           </Text>
         </View>
