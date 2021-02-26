@@ -12,10 +12,10 @@ Docile is a UI Framework for React Native. Allows you to code React Native like 
 
 ### Installation
 
-Docile is available as an [npm package][npm-home].
+Docile is available as an [![npm version](https://badge.fury.io/js/docile-ui.svg)](https://badge.fury.io/js/docile-ui).
 
 ```bash
-npm i docileui --save
+npm i docile-ui
 ```
 
 ### Usage
