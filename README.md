@@ -4,6 +4,8 @@
   </a>
 </p>
 
+This is Beta version.
+
 [![npm version](https://badge.fury.io/js/docile-ui.svg)](https://badge.fury.io/js/docile-ui)
 
 ### What is Docile ?
