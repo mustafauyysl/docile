@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://rsuitejs.com" target="_blank" rel="noopener noreferrer">
+  <a href="#" target="_blank" rel="noopener noreferrer">
    <img src="./logo.jpg" alt="Docile" width="300" height="300">
   </a>
 </p>

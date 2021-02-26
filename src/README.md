@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://rsuitejs.com" target="_blank" rel="noopener noreferrer">
+  <a href="#" target="_blank" rel="noopener noreferrer">
    <img src="./logo.jpg" alt="Docile" width="300" height="300">
   </a>
 </p>
@@ -12,10 +12,10 @@ Docile is a UI Framework for React Native. Allows you to code React Native like 
 
 ### Installation
 
-Docile is available as an [npm package][npm-home].
+Docile is available as an [![npm version](https://badge.fury.io/js/docile-ui.svg)](https://badge.fury.io/js/docile-ui).
 
 ```bash
-npm i docileui --save
+npm i docile-ui
 ```
 
 ### Usage
@@ -40,5 +40,3 @@ export default App;
 ### Demo
 
    <img src="./screenshot.png" alt="Docile" width="250">
-
-
