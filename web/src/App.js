@@ -1,9 +1,16 @@
-function App() {
+import React from 'react';
+import Container from '@material-ui/core/Container';
+import Typography from '@material-ui/core/Typography';
+import Box from '@material-ui/core/Box';
+
+export default function App() {
   return (
-    <div className="App">
-      <p>Docile</p>
-    </div>
+    <Container maxWidth="sm">
+      <Box my={4}>
+        <Typography variant="h6" weight="medium">
+          Docile
+        </Typography>
+      </Box>
+    </Container>
   );
 }
-
-export default App;
