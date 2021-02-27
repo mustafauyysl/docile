@@ -6,7 +6,7 @@ import Box from '@material-ui/core/Box';
 export default function App() {
   return (
     <Container maxWidth="sm">
-      <Box my={4}>
+      <Box>
         <Typography variant="h6" weight="medium">
           Docile
         </Typography>
