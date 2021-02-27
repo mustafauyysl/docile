@@ -147,6 +147,15 @@ const styles = {
 
   'justify-content-center': {justifyContent: 'center'},
   'align-items-center': {alignItems: 'center'},
+
+  // Button
+
+  btn: {
+    backgroundColor: 'gray',
+    paddingHorizontal: 30,
+    paddingVertical: 15,
+  },
+  'btn-primary': {backgroundColor: 'red'},
 };
 
 export default styles;
