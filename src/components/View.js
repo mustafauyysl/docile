@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, TouchableOpacity} from 'react-native';
 import styles from '../styles';
 
 const DView = (props) => {
@@ -11,11 +11,22 @@ const DView = (props) => {
       stylesObject.push(styles[item]);
     });
 
-  return (
-    <View style={[stylesObject, props.bg ? {backgroundColor: props.bg} : null]}>
-      {props.children}
-    </View>
-  );
+  if (props.class && newArr.includes('btn')) {
+    return (
+      <TouchableOpacity
+        onPress={props.onClick}
+        style={[stylesObject, props.bg ? {backgroundColor: props.bg} : null]}>
+        {props.children}
+      </TouchableOpacity>
+    );
+  } else {
+    return (
+      <View
+        style={[stylesObject, props.bg ? {backgroundColor: props.bg} : null]}>
+        {props.children}
+      </View>
+    );
+  }
 };
 
 export default DView;
