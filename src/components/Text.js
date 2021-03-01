@@ -16,7 +16,7 @@ const DText = (props) => {
       style={[
         stylesObject,
         props.color ? {color: props.color} : null,
-        props.styles,
+        props.style,
       ]}>
       {props.children}
     </Text>

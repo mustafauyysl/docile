@@ -18,7 +18,7 @@ const DView = (props) => {
         style={[
           stylesObject,
           props.bg ? {backgroundColor: props.bg} : null,
-          props.styles,
+          props.style,
         ]}>
         {props.children}
       </TouchableOpacity>
@@ -29,7 +29,7 @@ const DView = (props) => {
         style={[
           stylesObject,
           props.bg ? {backgroundColor: props.bg} : null,
-          props.styles,
+          props.style,
         ]}>
         {props.children}
       </View>
