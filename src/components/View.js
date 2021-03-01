@@ -15,14 +15,22 @@ const DView = (props) => {
     return (
       <TouchableOpacity
         onPress={props.onClick}
-        style={[stylesObject, props.bg ? {backgroundColor: props.bg} : null]}>
+        style={[
+          stylesObject,
+          props.bg ? {backgroundColor: props.bg} : null,
+          props.styles,
+        ]}>
         {props.children}
       </TouchableOpacity>
     );
   } else {
     return (
       <View
-        style={[stylesObject, props.bg ? {backgroundColor: props.bg} : null]}>
+        style={[
+          stylesObject,
+          props.bg ? {backgroundColor: props.bg} : null,
+          props.styles,
+        ]}>
         {props.children}
       </View>
     );

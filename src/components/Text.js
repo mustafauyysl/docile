@@ -12,7 +12,12 @@ const DText = (props) => {
     });
 
   return (
-    <Text style={[stylesObject, props.color ? {color: props.color} : null]}>
+    <Text
+      style={[
+        stylesObject,
+        props.color ? {color: props.color} : null,
+        props.styles,
+      ]}>
       {props.children}
     </Text>
   );
